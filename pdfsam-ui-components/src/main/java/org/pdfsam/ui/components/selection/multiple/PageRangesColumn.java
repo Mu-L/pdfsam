@@ -36,7 +36,7 @@ import static org.pdfsam.i18n.I18nContext.i18n;
  * @author Andrea Vacondio
  */
 public class PageRangesColumn implements SelectionTableColumn<String> {
-    private String tooltipMessage = i18n().tr("Double click to set selected pages (ex: 2 or 5-23 or 2,5-7,12-)");
+    private String tooltipMessage = i18n().tr("Set selected pages (ex: 2 or 5-23 or 2,5-7,12-)");
 
     public PageRangesColumn() {
         // nothing

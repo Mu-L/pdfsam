@@ -19,6 +19,7 @@
 package org.pdfsam.gui.components.content.about;
 
 import jakarta.inject.Inject;
+import javafx.scene.AccessibleRole;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.input.Clipboard;
@@ -68,6 +69,7 @@ public class AboutPane extends HBox {
     public AboutPane(AppBrand appBrand) {
         getStyleClass().add("spaced-container");
         getStyleClass().add("about-panel");
+        setAccessibleText(i18n().tr("About panel"));
         var left = new VBox(6);
         addSectionTitle(appBrand.property(BrandableProperty.NAME, "PDFsam Basic"), left);
         left.getChildren().addAll(new Label(String.format("ver. %s", appBrand.property(VERSION))));
@@ -88,7 +90,9 @@ public class AboutPane extends HBox {
         var memory = new Label(
                 i18n().tr("Max memory {0}", FileUtils.byteCountToDisplaySize(Runtime.getRuntime().maxMemory())));
         Button copyButton = new Button(i18n().tr("Copy to clipboard"));
-        copyButton.setGraphic(FontIcon.of(UniconsLine.COPY));
+        var copyIcon = FontIcon.of(UniconsLine.COPY);
+        copyIcon.setAccessibleRole(AccessibleRole.IMAGE_VIEW);
+        copyButton.setGraphic(copyIcon);
         copyButton.getStyleClass().addAll(Style.BUTTON.css());
         copyButton.setId("copyEnvDetails");
         copyButton.setOnAction(a -> {

@@ -23,6 +23,8 @@ import javafx.scene.control.TableColumn;
 import javafx.util.Callback;
 import org.pdfsam.model.ObservableAtomicReference;
 
+import static org.pdfsam.i18n.I18nContext.i18n;
+
 /**
  * Index column showing a row header with the row index
  * 
@@ -46,8 +48,11 @@ public class IndexColumn extends TableColumn<SelectionTableRowData, Object> {
                         super.updateItem(item, empty);
                         if (empty) {
                             setText("");
+                            setAccessibleText(null);
                         } else {
-                            setText(Integer.toString(getIndex() + 1));
+                            var index = Integer.toString(getIndex() + 1);
+                            setText(index);
+                            setAccessibleText(i18n().tr("Row {0}", index));
                         }
                     }
                 };

@@ -57,6 +57,8 @@ class HomeTile extends StackPane {
         vbox.getStyleClass().add("right");
 
         invisibleButton.getStyleClass().add("home-tile-invisible-button");
+        invisibleButton.setAccessibleText(title);
+        invisibleButton.setAccessibleHelp(description);
         invisibleButton.setMaxSize(Double.MAX_VALUE, Double.MAX_VALUE);
 
         var categoryMark = new Region();
