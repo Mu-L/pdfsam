@@ -38,6 +38,7 @@ public class IndexColumn extends TableColumn<SelectionTableRowData, Object> {
         setComparator(null);
         setSortable(false);
         setPrefWidth(15);
+        setMaxWidth(200);
         setCellFactory(new Callback<>() {
 
             @Override
