@@ -64,7 +64,6 @@ class SelectionTableToolbar extends ToolBar implements ToolBound {
             getItems().addAll(new MoveUpButton(toolBinding), new MoveDownButton(toolBinding));
         }
         getStyleClass().add("selection-tool-bar");
-        setAccessibleText(i18n().tr("Document selection toolbar"));
     }
 
     @Override

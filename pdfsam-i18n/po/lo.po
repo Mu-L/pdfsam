@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: pdfsam\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2024-10-23 17:08+0200\n"
-"PO-Revision-Date: 2026-01-26 09:14+0100\n"
+"PO-Revision-Date: 2026-02-24 17:14+0100\n"
 "Last-Translator: boneni <Unknown>\n"
 "Language-Team: Lao <lo@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2026-01-26 07:52+0000\n"
-"X-Generator: Autopo v1.0.8-SNAPSHOT\n"
+"X-Generator: Autopo v1.0.9-SNAPSHOT\n"
 "Language: lo\n"
 
 msgid "No PDF document has been selected"
@@ -162,8 +162,8 @@ msgstr "ກຳນົດຂະໜາດທີ່ຈະແຍກ"
 msgid "Size must be a number"
 msgstr "ຂະໜາດຕ້ອງເປັນຕົວເລກ"
 
-msgid "Split at this size:"
-msgstr "ແຍກທີ່ຂະໜາດນີ້:"
+#~ msgid "Split at this size:"
+#~ msgstr "ແຍກທີ່ຂະໜາດນີ້:"
 
 msgid "Invalid split size"
 msgstr "ຂະໜາດການແຍກບໍ່ຖືກຕ້ອງ"
@@ -201,8 +201,8 @@ msgstr "180 ອົງສາຕາມເຂັມໂມງ"
 msgid "90 degrees counterclockwise"
 msgstr "90 ອົງສາທວນເຂັມໂມງ"
 
-msgid "Rotate "
-msgstr "ໝຸນ "
+#~ msgid "Rotate "
+#~ msgstr "ໝຸນ "
 
 msgid "Rotate settings"
 msgstr "ການຕັ້ງຄ່າການໝຸນ"
@@ -213,11 +213,11 @@ msgstr "ໝຸນ"
 msgid "Rotate the pages of multiple PDF documents."
 msgstr "ໝຸນໜ້າຕ່າງໆຂອງເອກະສານ PDF ຫຼາຍໄຟລ໌."
 
-msgid ""
-"Double click to set pages you want to rotate (ex: 2 or 5-23 or 2,5-7,12-)"
-msgstr ""
-"ດັບເບິ້ນຄລິກເພື່ອກຳນົດໜ້າທີ່ທ່ານຕ້ອງການໝຸນ (ຕົວຢ່າງ: 2 ຫຼື 5-23 ຫຼື 2,5-7,12-"
-")"
+#~ msgid ""
+#~ "Double click to set pages you want to rotate (ex: 2 or 5-23 or 2,5-7,12-)"
+#~ msgstr ""
+#~ "ດັບເບິ້ນຄລິກເພື່ອກຳນົດໜ້າທີ່ທ່ານຕ້ອງການໝຸນ (ຕົວຢ່າງ: 2 ຫຼື 5-23 ຫຼື 2,5-7,12-"
+#~ ")"
 
 msgid "Merge settings"
 msgstr "ການຕັ້ງຄ່າການຮວມ"
@@ -253,8 +253,8 @@ msgstr "ຄວາມກວ້າງເທົ່າກັບໜ້າທຳອິ
 msgid "Same width as first page (based on page orientation)"
 msgstr "ຄວາມກວ້າງເທົ່າກັບໜ້າທຳອິດ (ອີງຕາມທິດທາງຂອງໜ້າ)"
 
-msgid "Pages normalization:"
-msgstr "ການປັບໜ້າໃຫ້ເປັນມາດຕະຖານ:"
+#~ msgid "Pages normalization:"
+#~ msgstr "ການປັບໜ້າໃຫ້ເປັນມາດຕະຖານ:"
 
 msgid ""
 "Set whether pages should be resized to all have the same width as the first "
@@ -274,8 +274,8 @@ msgstr "ເຮັດໃຫ້ຮາບພຽງ"
 msgid "Discard forms"
 msgstr "ບໍ່ເອົາຟອມ"
 
-msgid "Interactive forms (AcroForms):"
-msgstr "ຟອມແບບໂຕ້ຕອບ (AcroForms):"
+#~ msgid "Interactive forms (AcroForms):"
+#~ msgstr "ຟອມແບບໂຕ້ຕອບ (AcroForms):"
 
 msgid "What to do in case one or more input documents contain Acro Forms"
 msgstr "ຈະເຮັດແນວໃດໃນກໍລະນີທີ່ເອກະສານນຳເຂົ້າໜຶ່ງ ຫຼື ຫຼາຍໄຟລ໌ມີ Acro Forms"
@@ -292,8 +292,8 @@ msgstr "ສ້າງໜຶ່ງລາຍການສຳລັບແຕ່ລະ
 msgid "Retain bookmarks as one entry for each merged document"
 msgstr "ຮັກສາບຸກມາກໄວ້ເປັນໜຶ່ງລາຍການສຳລັບແຕ່ລະເອກະສານທີ່ຮວມ"
 
-msgid "Bookmarks handling:"
-msgstr "ການຈັດການບຸກມາກ:"
+#~ msgid "Bookmarks handling:"
+#~ msgstr "ການຈັດການບຸກມາກ:"
 
 msgid "What to do in case one or more input documents contain bookmarks"
 msgstr "ຈະເຮັດແນວໃດໃນກໍລະນີທີ່ເອກະສານນຳເຂົ້າໜຶ່ງ ຫຼື ຫຼາຍໄຟລ໌ມີບຸກມາກ"
@@ -307,8 +307,8 @@ msgstr "ສ້າງຈາກຊື່ໄຟລ໌"
 msgid "Generate from documents titles"
 msgstr "ສ້າງຈາກຫົວຂໍ້ເອກະສານ"
 
-msgid "Table of contents:"
-msgstr "ສາລະບານ:"
+#~ msgid "Table of contents:"
+#~ msgstr "ສາລະບານ:"
 
 msgid ""
 "Set if a table of contents should be added to the generated PDF document"
@@ -594,8 +594,8 @@ msgstr "ບໍລິຈາກ"
 msgid "Social"
 msgstr "ສັງຄົມອອນລາຍ"
 
-msgid "Follow us on Twitter"
-msgstr "ຕິດຕາມພວກເຮົາໃນ Twitter"
+#~ msgid "Follow us on Twitter"
+#~ msgstr "ຕິດຕາມພວກເຮົາໃນ Twitter"
 
 msgid "Like us on Facebook"
 msgstr "ກົດຖືກໃຈພວກເຮົາໃນ Facebook"
@@ -609,32 +609,32 @@ msgstr "ໜ້າຫຼັກ"
 msgid "Premium features"
 msgstr "ຄຸນສົມບັດພຣີມຽມ"
 
-msgid "Log register rows:"
-msgstr "ແຖວຂອງບັນທຶກ:"
+#~ msgid "Log register rows:"
+#~ msgstr "ແຖວຂອງບັນທຶກ:"
 
 msgid "Maximum number of rows displayed by the Log register"
 msgstr "ຈຳນວນແຖວສູງສຸດທີ່ສະແດງໃນບັນທຶກ"
 
-msgid "Language:"
-msgstr "ພາສາ:"
+#~ msgid "Language:"
+#~ msgstr "ພາສາ:"
 
 msgid "Set your preferred language (restart needed)"
 msgstr "ຕັ້ງຄ່າພາສາທີ່ທ່ານຕ້ອງການ (ຕ້ອງເປີດໃໝ່)"
 
-msgid "Startup tool:"
-msgstr "ເຄື່ອງມືເລີ່ມຕົ້ນ:"
+#~ msgid "Startup tool:"
+#~ msgstr "ເຄື່ອງມືເລີ່ມຕົ້ນ:"
 
 msgid "Set the tool to open at application startup (restart needed)"
 msgstr "ຕັ້ງຄ່າເຄື່ອງມືທີ່ຈະເປີດເມື່ອເລີ່ມແອັບພລິເຄຊັນ (ຕ້ອງເປີດໃໝ່)"
 
-msgid "Theme:"
-msgstr "ຮູບແບບ:"
+#~ msgid "Theme:"
+#~ msgstr "ຮູບແບບ:"
 
 msgid "Set the application theme"
 msgstr "ຕັ້ງຄ່າທີມຂອງແອັບພລິເຄຊັນ"
 
-msgid "Font size:"
-msgstr "ຂະໜາດຕົວອັກສອນ:"
+#~ msgid "Font size:"
+#~ msgstr "ຂະໜາດຕົວອັກສອນ:"
 
 msgid "Set the application font size"
 msgstr "ຕັ້ງຄ່າຂະໜາດຕົວອັກສອນຂອງແອັບພລິເຄຊັນ"
@@ -1010,8 +1010,8 @@ msgstr "ປ້ອນລະຫັດຜ່ານຜູ້ໃຊ້"
 msgid "Unlock"
 msgstr "ປົດລັອກ"
 
-msgid "Drag and drop PDF files here"
-msgstr "ລາກແລະວາງໄຟລ໌ PDF ໃສ່ບ່ອນນີ້"
+#~ msgid "Drag and drop PDF files here"
+#~ msgstr "ລາກແລະວາງໄຟລ໌ PDF ໃສ່ບ່ອນນີ້"
 
 msgid "Set as range for all"
 msgstr "ຕັ້ງເປັນຊ່ວງສຳລັບທັງໝົດ"
@@ -1115,8 +1115,8 @@ msgstr "ໜ້າ"
 msgid "Number of total pages of the document"
 msgstr "ຈຳນວນໜ້າທັງໝົດຂອງເອກະສານ"
 
-msgid "Double click to set selected pages (ex: 2 or 5-23 or 2,5-7,12-)"
-msgstr "ດັບເບິ້ນຄລິກເພື່ອກຳນົດໜ້າທີ່ເລືອກ (ຕົວຢ່າງ: 2 ຫຼື 5-23 ຫຼື 2,5-7,12-)"
+#~ msgid "Double click to set selected pages (ex: 2 or 5-23 or 2,5-7,12-)"
+#~ msgstr "ດັບເບິ້ນຄລິກເພື່ອກຳນົດໜ້າທີ່ເລືອກ (ຕົວຢ່າງ: 2 ຫຼື 5-23 ຫຼື 2,5-7,12-)"
 
 msgid "Page ranges"
 msgstr "ຊ່ວງໜ້າ"
@@ -1244,3 +1244,340 @@ msgstr "ຊ່ວງບໍ່ຖືກຕ້ອງ: {0}."
 #, java-format
 msgid "Invalid number: {0}."
 msgstr "ຕົວເລກບໍ່ຖືກຕ້ອງ: {0}."
+
+msgid "Split at this bookmark level"
+msgstr "ແຍກຕາມລະດັບບຸກມາກນີ້"
+
+msgid "Select the bookmark depth level at which to split the document"
+msgstr "ເລືອກລະດັບຄວາມເລິກຂອງບຸກມາກທີ່ຈະແຍກເອກະສານ"
+
+msgid "Bookmark level"
+msgstr "ລະດັບບຸກມາກ"
+
+msgid "Bookmark level selector"
+msgstr "ເຄື່ອງເລືອກລະດັບບຸກມາກ"
+
+msgid "Select a bookmark level"
+msgstr "ເລືອກລະດັບບຸກມາກ"
+
+msgid "Select to split the PDF after a predefined set of pages"
+msgstr "ເລືອກເພື່ອແຍກໄຟລ໌ PDF ຫຼັງຈາກຈຳນວນໜ້າທີ່ກຳນົດໄວ້ລ່ວງໜ້າ"
+
+msgid "Predefined set of pages to split after"
+msgstr "ຊຸດໜ້າທີ່ກຳນົດໄວ້ກ່ອນເພື່ອແຍກຫຼັງຈາກ"
+
+msgid ""
+"Choose which predefined set of pages to split after (odd pages, even pages "
+"or every page)"
+msgstr ""
+"ເລືອກວ່າຈະແຍກຕາມຊຸດໜ້າທີ່ກຳນົດໄວ້ລ່ວງໜ້າອັນໃດ (ໜ້າຄີກ, ໜ້າຄູ່ ຫຼື ທຸກໜ້າ)"
+
+msgid "Select to split the document after specific page numbers"
+msgstr "ເລືອກເພື່ອແຍກເອກະສານຫຼັງຈາກເລກໜ້າທີ່ກຳນົດ"
+
+msgid "Page numbers to split at"
+msgstr "ເລກໜ້າທີ່ຈະແຍກ"
+
+msgid "Enter comma separated positive page numbers (Ex. 1,5,12...)"
+msgstr "ປ້ອນເລກໜ້າບວກທີ່ແຍກດ້ວຍເຄື່ອງໝາຍຈຸດ (ຕົວຢ່າງ: 1,5,12...)"
+
+msgid "Select to split the document every 'n' pages"
+msgstr "ເລືອກແຍກເອກະສານທຸກ 'n' ໜ້າ"
+
+msgid "Number of pages for split"
+msgstr "ຈຳນວນໜ້າສຳລັບແຍກ"
+
+msgid "Enter a positive number of pages"
+msgstr "ປ້ອນຈຳນວນໜ້າທີ່ເປັນບວກ"
+
+msgid "Split at this size"
+msgstr "ແຍກທີ່ຂະໜາດນີ້"
+
+msgid "Enter a positive integer for the maximum file size"
+msgstr "ໃສ່ຈຳນວນເຕັມບວກສຳລັບຂະໜາດໄຟລ໌ສູງສຸດ"
+
+msgid "Size unit for the split file size"
+msgstr "ຫົວໜ່ວຍຂະໜາດສຳລັບຂະໜາດໄຟລ໌ທີ່ແຍກ"
+
+msgid "Page selection for rotation"
+msgstr "ການເລືອກໜ້າສຳລັບການໝູນ"
+
+msgid "Choose which pages to rotate: all, even, or odd"
+msgstr "ເລືອກໜ້າທີ່ຕ້ອງການໝຸນ: ທັງໝົດ, ຄູ່, ຫຼື ຄີກ"
+
+msgid "Rotation angle"
+msgstr "ມຸມໝູນ"
+
+msgid "Choose the rotation angle to apply"
+msgstr "ເລືອກມຸມໝູນວຽນເພື່ອນຳໃຊ້"
+
+msgid "Set pages you want to rotate (ex: 2 or 5-23 or 2,5-7,12-)"
+msgstr "ກໍານົດໜ້າທີ່ທ່ານຕ້ອງການໝູນ (ຕົວຢ່າງ: 2 ຫຼື 5-23 ຫຼື 2,5-7,12-)"
+
+msgid "Pages normalization"
+msgstr "ການປັບມາດຕະຖານໜ້າ"
+
+msgid "Interactive forms (AcroForms)"
+msgstr "ແບບຟອມປະຕິສຳພັນ (ແອັກໂຄຣຟອມ)"
+
+msgid "Bookmarks handling"
+msgstr "ການຈັດການບຸກມາກ"
+
+msgid "Table of contents"
+msgstr "ສານບານ"
+
+msgid "Repeating PDF file"
+msgstr "ໄຟລ໌ PDF ຊ້ຳ"
+
+msgid "There are news available"
+msgstr "ມີຂ່າວໃໝ່"
+
+msgid "selected"
+msgstr "ເລືອກແລ້ວ"
+
+#, java-format
+msgid "{0} (with notification)"
+msgstr "{0} (ພ້ອມແຈ້ງເຕືອນ)"
+
+msgid "Collapse the sidebar"
+msgstr "ຫຍໍ້ແຖບດ້ານຂ້າງ"
+
+msgid "Expand the sidebar"
+msgstr "ຂະຫຍາຍແຖບດ້ານຂ້າງ"
+
+msgid "Workspace has changed"
+msgstr "ພື້ນທີ່ເຮັດວຽກໄດ້ປ່ຽນແປງ"
+
+msgid "Do you want to save it?"
+msgstr "ທ່ານຕ້ອງການບັນທຶກມັນບໍ່"
+
+msgid "PDF files to open"
+msgstr "ໄຟລ໌ PDF ເພື່ອເປີດ"
+
+msgid "file list"
+msgstr "ລາຍການໄຟລ໌"
+
+msgid "Available tasks"
+msgstr "ວຽກງານທີ່ມີຢູ່"
+
+msgid "Log messages"
+msgstr "ບັນທຶກຂໍ້ຄວາມ"
+
+msgid "Save the log messages to a text file"
+msgstr "ບັນທຶກຂໍ້ຄວາມລັອກໃສ່ໄຟລ໌ຂໍ້ຄວາມ"
+
+msgid "Close the log panel"
+msgstr "ປິດແຖບບັນທຶກ"
+
+msgid "News items"
+msgstr "ຂ່າວຕ່າງໆ"
+
+msgid "Close news panel"
+msgstr "ປິດແຜງຂ່າວ"
+
+#~ msgid "About panel"
+#~ msgstr ""
+
+msgid "Follow us on Bluesky"
+msgstr "ຕິດຕາມພວກເຮົາທີ່ບລູສະກາຍ"
+
+#, java-format
+msgid "Help for {0}"
+msgstr "ຊ່ວຍເຫຼືອສຳລັບ {0}"
+
+msgid "Log register rows"
+msgstr "ແຖວທະບຽນບັນທຶກ"
+
+msgid "Language"
+msgstr "ພາສາ"
+
+msgid "Startup tool"
+msgstr "ເຄື່ອງມືເລີ່ມຕົ້ນ"
+
+msgid "Theme"
+msgstr "ທິມ"
+
+msgid "Font"
+msgstr "ຟອນ"
+
+msgid "Sets the application font"
+msgstr "ກຳນົດຟອນຂອງແອັບພລິເຄຊັນ"
+
+msgid "Font size"
+msgstr "ຂະໜາດຟອນ"
+
+msgid "Default PDF version"
+msgstr "ຄ່າເລີ່ມຕົ້ນ ເວີຊັນ PDF"
+
+msgid "Manually select the output destination directory"
+msgstr "ເລືອກໂຟນເດີປາຍທາງຜົນອອກດ້ວຍຕົນເອງ"
+
+msgid "Default prefix"
+msgstr "ຄຳນຳໜ້າເລີ່ມຕົ້ນ"
+
+msgid "Default prefix for output file names"
+msgstr "ຄຳນຳໜ້າເລີ່ມຕົ້ນສຳລັບຊື່ໄຟລ໌ຜົນອອກ"
+
+msgid "Right click to add special prefix keywords"
+msgstr "ຄລິກຂວາເພື່ອເພີ່ມຄຳສຳຄັນນຳໜ້າພິເສດ"
+
+msgid "Default"
+msgstr "ຄ່າເລີ່ມຕົ້ນ"
+
+msgid "Properties table"
+msgstr "ຕາຕະລາງຄຸນສົມບັດ"
+
+msgid "Properties"
+msgstr "ຄຸນສົມບັດ"
+
+msgid "Empty"
+msgstr "ເປົ່າ"
+
+msgid "Notification"
+msgstr "ແຈ້ງເຕືອນ"
+
+msgid "Close notification"
+msgstr "ປິດແຈ້ງເຕືອນ"
+
+msgid "Light"
+msgstr "ອ່ອນ"
+
+msgid "Dark"
+msgstr "ມືດ"
+
+#, java-format
+msgid "Open the url {0}"
+msgstr "ເປີດທີ່ຢູ່ເວັບ {0}"
+
+#~ msgid "PDF document selection toolbar"
+#~ msgstr ""
+
+msgid "Clear the selected PDF document"
+msgstr "ເອົາເອກະສານ PDF ທີ່ຖືກເລືອກອອກ"
+
+msgid "PDF encryption status"
+msgstr "ສະຖານະການເຂົ້າລະຫັດ PDF"
+
+msgid "PDF document password"
+msgstr "ລະຫັດຜ່ານເອກະສານ PDF"
+
+msgid "Drag and drop PDF files here or use the Add button above"
+msgstr "ລາກແລະວາງໄຟລ໌ PDF ທີ່ນີ້ ຫຼື ໃຊ້ປຸ່ມເພີ່ມຢູ່ເທິງ"
+
+msgid "PDF documents selection table"
+msgstr "ຕາຕະລາງການເລືອກເອກະສານ PDF"
+
+msgid "PDF selection table"
+msgstr "ຕາຕະລາງເລືອກ PDF"
+
+#, java-format
+msgid "PDF documents selection table, {0} documents"
+msgstr "ຕາຕະລາງເລືອກເອກະສານ PDF, {0} ເອກະສານ"
+
+msgid "Set as pace for all"
+msgstr "ຕັ້ງເປັນຈັງຫວະສຳລັບທັງໝົດ"
+
+msgid "Unlock selected"
+msgstr "ປົດລັອກທີ່ເລືອກ"
+
+#, java-format
+msgid "{0} selected pages"
+msgstr "{0} ໜ້າທີ່ຖືກເລືອກ"
+
+#, java-format
+msgid "Size: {0}"
+msgstr "ຂະໜາດ: {0}"
+
+#, java-format
+msgid "Modified: {0}"
+msgstr "ແກ້ໄຂແລ້ວ: {0}"
+
+msgid "Number of total pages"
+msgstr "ຈຳນວນໜ້າທັງໝົດ"
+
+#, java-format
+msgid "File name: {0}"
+msgstr "ຊື່ໄຟລ໌: {0}"
+
+#, java-format
+msgid "Row {0}"
+msgstr "ແຖວ {0}"
+
+#~ msgid "Document selection toolbar"
+#~ msgstr ""
+
+#, java-format
+msgid "{0} pages"
+msgstr "{0} ໜ້າ"
+
+msgid "Set selected pages (ex: 2 or 5-23 or 2,5-7,12-)"
+msgstr "ກຳນົດໜ້າທີ່ເລືອກ (ຕົວຢ່າງ: 2 ຫຼື 5-23 ຫຼື 2,5-7,12-)"
+
+msgid "Select a PDF destination file"
+msgstr "ເລືອກໄຟລ໌ PDF ປາຍທາງ"
+
+msgid "Browse for destination PDF file"
+msgstr "ຊອກຫາໄຟລ໌ PDF ປາຍທາງ"
+
+#, java-format
+msgid "Browse for {0}"
+msgstr "ຊອກຫາ {0}"
+
+msgid "Compress the output PDF file"
+msgstr "ບີບອັດໄຟລ໌ PDF ທີ່ສົ່ງອອກ"
+
+msgid "Select a PDF file"
+msgstr "ເລືອກໄຟລ໌ PDF"
+
+msgid "Browse for source PDF file"
+msgstr "ຊອກຫາໄຟລ໌ PDF ຕົ້ນສະບັບ"
+
+msgid "Output PDF version"
+msgstr "ຮຸ່ນ PDF ຜົນອອກ"
+
+msgid "Output PDF version selector"
+msgstr "ຕົວເລືອກເວີຊັນ PDF ຜົນອອກ"
+
+msgid "Output directory"
+msgstr "ໂຟນເດີຜົນອອກ"
+
+msgid "Browse for output directory"
+msgstr "ຊອກຫາໂຟນເດີປາຍທາງ"
+
+msgid "Browse for directory"
+msgstr "ເລືອກໄດເຣັກທໍຣີ"
+
+#, java-format
+msgid "Invalid value: {0}"
+msgstr "ຄ່າບໍ່ຖືກຕ້ອງ: {0}"
+
+#, java-format
+msgid "When selected, requires PDF version {0} or higher for the output file"
+msgstr "ເມື່ອເລືອກແລ້ວ, ຕ້ອງການ PDF ເວີຊັນ {0} ຫຼື ສູງກວ່າ ສຳລັບໄຟລ໌ຜົນອອກ"
+
+msgid "Right click to add special prefix keywords like timestamp or filename"
+msgstr "ຄລິກຂວາເພື່ອເພີ່ມຄຳສັບພິເສດນຳໜ້າ ເຊັ່ນ ວັນທີ-ເວລາ ຫຼື ຊື່ໄຟລ໌"
+
+msgid "Open the task output file"
+msgstr "ເປີດໄຟລ໌ຜົນລັບວຽກ"
+
+msgid "Open the task output directory"
+msgstr "ເປີດໂຟນເດີຜົນລັບວຽກ"
+
+msgid "Task footer"
+msgstr "ພາກສ່ວນທ້າຍວຽກ"
+
+msgid "Task progress"
+msgstr "ຄວາມຄືບໜ້າວຽກ"
+
+#, java-format
+msgid "Task progress: {0}"
+msgstr ""
+
+#, java-format
+msgid "Task status: {0}"
+msgstr ""
+
+#, java-format
+msgid "Task status: {0}%"
+msgstr ""

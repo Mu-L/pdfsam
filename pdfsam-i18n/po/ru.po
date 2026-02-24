@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: pdfsam\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2024-10-23 17:08+0200\n"
-"PO-Revision-Date: 2026-01-26 09:11+0100\n"
+"PO-Revision-Date: 2026-02-24 17:25+0100\n"
 "Last-Translator: Sergej <Unknown>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2026-01-26 07:52+0000\n"
-"X-Generator: Autopo v1.0.8-SNAPSHOT\n"
+"X-Generator: Autopo v1.0.9-SNAPSHOT\n"
 "Language: ru\n"
 
 msgid "No PDF document has been selected"
@@ -169,8 +169,8 @@ msgstr "Установить размер для разделения"
 msgid "Size must be a number"
 msgstr "Размер должен быть числом"
 
-msgid "Split at this size:"
-msgstr "Разбить на этот размер:"
+#~ msgid "Split at this size:"
+#~ msgstr "Разбить на этот размер:"
 
 msgid "Invalid split size"
 msgstr "Неверный размер для разделения"
@@ -208,8 +208,8 @@ msgstr "180 градусов"
 msgid "90 degrees counterclockwise"
 msgstr "90 градусов против часовой стрелки"
 
-msgid "Rotate "
-msgstr "Вращение "
+#~ msgid "Rotate "
+#~ msgstr "Вращение "
 
 msgid "Rotate settings"
 msgstr "Настройка вращения"
@@ -220,11 +220,11 @@ msgstr "Повернуть"
 msgid "Rotate the pages of multiple PDF documents."
 msgstr "Повернуть страницы нескольких PDF-документов."
 
-msgid ""
-"Double click to set pages you want to rotate (ex: 2 or 5-23 or 2,5-7,12-)"
-msgstr ""
-"Кликните дважды, чтобы установить страницы, которые нужно повернуть(пример: "
-"2 или 5-23 или 2,5-7,12-)"
+#~ msgid ""
+#~ "Double click to set pages you want to rotate (ex: 2 or 5-23 or 2,5-7,12-)"
+#~ msgstr ""
+#~ "Кликните дважды, чтобы установить страницы, которые нужно повернуть(пример: "
+#~ "2 или 5-23 или 2,5-7,12-)"
 
 msgid "Merge settings"
 msgstr "Настройки объединения"
@@ -261,8 +261,8 @@ msgid "Same width as first page (based on page orientation)"
 msgstr ""
 "Та же ширина, что у первой страницы (в зависимости от ориентации страницы)"
 
-msgid "Pages normalization:"
-msgstr "Нормализация страниц:"
+#~ msgid "Pages normalization:"
+#~ msgstr "Нормализация страниц:"
 
 msgid ""
 "Set whether pages should be resized to all have the same width as the first "
@@ -281,8 +281,8 @@ msgstr "Объединить слои"
 msgid "Discard forms"
 msgstr "Отбросить формы"
 
-msgid "Interactive forms (AcroForms):"
-msgstr "Интерактивные формы (AcroForms):"
+#~ msgid "Interactive forms (AcroForms):"
+#~ msgstr "Интерактивные формы (AcroForms):"
 
 msgid "What to do in case one or more input documents contain Acro Forms"
 msgstr ""
@@ -302,8 +302,8 @@ msgid "Retain bookmarks as one entry for each merged document"
 msgstr ""
 "Сохранять закладки как одну запись для каждого объединенного документа"
 
-msgid "Bookmarks handling:"
-msgstr "Управление закладками:"
+#~ msgid "Bookmarks handling:"
+#~ msgstr "Управление закладками:"
 
 msgid "What to do in case one or more input documents contain bookmarks"
 msgstr ""
@@ -319,8 +319,8 @@ msgstr "Создать из имен файлов"
 msgid "Generate from documents titles"
 msgstr "Создать из названия документов"
 
-msgid "Table of contents:"
-msgstr "Содержание"
+#~ msgid "Table of contents:"
+#~ msgstr "Содержание"
 
 msgid ""
 "Set if a table of contents should be added to the generated PDF document"
@@ -617,8 +617,8 @@ msgstr "Помочь проекту"
 msgid "Social"
 msgstr "Соцсети"
 
-msgid "Follow us on Twitter"
-msgstr "Следите за нами на Twitter"
+#~ msgid "Follow us on Twitter"
+#~ msgstr "Следите за нами на Twitter"
 
 msgid "Like us on Facebook"
 msgstr "Лайкай нас на Facebook"
@@ -632,34 +632,34 @@ msgstr "Главная"
 msgid "Premium features"
 msgstr "Дополнительные возможности"
 
-msgid "Log register rows:"
-msgstr "Строки Журнала отчёта:"
+#~ msgid "Log register rows:"
+#~ msgstr "Строки Журнала отчёта:"
 
 msgid "Maximum number of rows displayed by the Log register"
 msgstr "Максимальное количество строк, отображаемых в Журнале отчёта"
 
-msgid "Language:"
-msgstr "Язык:"
+#~ msgid "Language:"
+#~ msgstr "Язык:"
 
 msgid "Set your preferred language (restart needed)"
 msgstr "Выберите предпочтительный язык (требуется перезапуск)"
 
-msgid "Startup tool:"
-msgstr "Инструмент запуска:"
+#~ msgid "Startup tool:"
+#~ msgstr "Инструмент запуска:"
 
 msgid "Set the tool to open at application startup (restart needed)"
 msgstr ""
 "Настройте инструмент так, чтобы он открывался при запуске приложения "
 "(требуется перезагрузка)"
 
-msgid "Theme:"
-msgstr "Тема:"
+#~ msgid "Theme:"
+#~ msgstr "Тема:"
 
 msgid "Set the application theme"
 msgstr "Установить тему приложения"
 
-msgid "Font size:"
-msgstr "Размер шрифта:"
+#~ msgid "Font size:"
+#~ msgstr "Размер шрифта:"
 
 msgid "Set the application font size"
 msgstr "Выбрать размер шрифта приложения"
@@ -1047,8 +1047,8 @@ msgstr "Введите пароль пользователя"
 msgid "Unlock"
 msgstr "Разблокировать"
 
-msgid "Drag and drop PDF files here"
-msgstr "Перетащите PDF файлы сюда"
+#~ msgid "Drag and drop PDF files here"
+#~ msgstr "Перетащите PDF файлы сюда"
 
 msgid "Set as range for all"
 msgstr "Установить интервал для всех"
@@ -1156,10 +1156,10 @@ msgstr "Страницы"
 msgid "Number of total pages of the document"
 msgstr "Общее количество страниц документа"
 
-msgid "Double click to set selected pages (ex: 2 or 5-23 or 2,5-7,12-)"
-msgstr ""
-"Дважды щелкните мышью для ввода номера выбранных страниц (например: 2 или 5-"
-"23 или 2,5-7,12-)"
+#~ msgid "Double click to set selected pages (ex: 2 or 5-23 or 2,5-7,12-)"
+#~ msgstr ""
+#~ "Дважды щелкните мышью для ввода номера выбранных страниц (например: 2 или 5-"
+#~ "23 или 2,5-7,12-)"
 
 msgid "Page ranges"
 msgstr "Диапазоны страниц"
@@ -1325,3 +1325,344 @@ msgstr "Неверное число: {0}."
 
 #~ msgid "Output document pdf version:"
 #~ msgstr "Версия PDF готового документа:"
+
+msgid "Split at this bookmark level"
+msgstr "Разделить по этому уровню закладки"
+
+msgid "Select the bookmark depth level at which to split the document"
+msgstr "Выберите уровень глубины закладки по которому разделить документ"
+
+msgid "Bookmark level"
+msgstr "Уровень закладки"
+
+msgid "Bookmark level selector"
+msgstr "Селектор уровня закладки"
+
+msgid "Select a bookmark level"
+msgstr "Выберите уровень закладки"
+
+msgid "Select to split the PDF after a predefined set of pages"
+msgstr "Выберите, чтобы разделить PDF после заранее заданного набора страниц"
+
+msgid "Predefined set of pages to split after"
+msgstr "Предустановленный набор страниц, после которых разбивать"
+
+msgid ""
+"Choose which predefined set of pages to split after (odd pages, even pages "
+"or every page)"
+msgstr ""
+"Выберите, после какого предопределенного набора страниц разделить (нечетные "
+"страницы, четные страницы или каждая страница)"
+
+msgid "Select to split the document after specific page numbers"
+msgstr "Выбрать, чтобы разделить документ после указанных номеров страниц"
+
+msgid "Page numbers to split at"
+msgstr "Номера страниц для разделения"
+
+msgid "Enter comma separated positive page numbers (Ex. 1,5,12...)"
+msgstr ""
+"Введите положительные номера страниц через запятую (Например: 1,5,12...)"
+
+msgid "Select to split the document every 'n' pages"
+msgstr "Разделить документ каждые 'n' страниц"
+
+msgid "Number of pages for split"
+msgstr "Количество страниц для разделения"
+
+msgid "Enter a positive number of pages"
+msgstr "Введите положительное число страниц"
+
+msgid "Split at this size"
+msgstr "Разделить по этому размеру"
+
+msgid "Enter a positive integer for the maximum file size"
+msgstr "Введите положительное целое число для максимального размера файла"
+
+msgid "Size unit for the split file size"
+msgstr "Единица измерения размера разделенного файла"
+
+msgid "Page selection for rotation"
+msgstr "Выбор Страниц Для Поворота"
+
+msgid "Choose which pages to rotate: all, even, or odd"
+msgstr "Выберите, какие страницы повернуть: все, четные, или нечетные"
+
+msgid "Rotation angle"
+msgstr "Угол поворота"
+
+msgid "Choose the rotation angle to apply"
+msgstr "Выберите угол поворота для применения"
+
+msgid "Set pages you want to rotate (ex: 2 or 5-23 or 2,5-7,12-)"
+msgstr "Задайте страницы для поворота (напр.: 2 или 5-23 или 2,5-7,12-)"
+
+msgid "Pages normalization"
+msgstr "Нормализация страниц"
+
+msgid "Interactive forms (AcroForms)"
+msgstr "Интерактивные формы (АкроФормы)"
+
+msgid "Bookmarks handling"
+msgstr "Управление закладками"
+
+msgid "Table of contents"
+msgstr "Оглавление"
+
+msgid "Repeating PDF file"
+msgstr "Повторяющийся PDF-файл"
+
+msgid "There are news available"
+msgstr "Доступны новости"
+
+msgid "selected"
+msgstr "выбрано"
+
+#, java-format
+msgid "{0} (with notification)"
+msgstr "{0} (с уведомлением)"
+
+msgid "Collapse the sidebar"
+msgstr "Свернуть боковую панель"
+
+msgid "Expand the sidebar"
+msgstr "Развернуть боковую панель"
+
+msgid "Workspace has changed"
+msgstr "Рабочая область изменилась"
+
+msgid "Do you want to save it?"
+msgstr "Вы хотите сохранить это?"
+
+msgid "PDF files to open"
+msgstr "PDF-файлы для открытия"
+
+msgid "file list"
+msgstr "список файлов"
+
+msgid "Available tasks"
+msgstr "Доступные задачи"
+
+msgid "Log messages"
+msgstr "Сообщения журнала"
+
+msgid "Save the log messages to a text file"
+msgstr "Сохранить сообщения журнала в текстовый файл"
+
+msgid "Close the log panel"
+msgstr "Закрыть панель журнала"
+
+msgid "News items"
+msgstr "Новости"
+
+msgid "Close news panel"
+msgstr "Закрыть панель новостей"
+
+#~ msgid "About panel"
+#~ msgstr ""
+
+msgid "Follow us on Bluesky"
+msgstr "Подпишитесь на нас в Bluesky"
+
+#, java-format
+msgid "Help for {0}"
+msgstr "Помощь для {0}"
+
+msgid "Log register rows"
+msgstr "Строки журнала регистрации"
+
+msgid "Language"
+msgstr "Язык"
+
+msgid "Startup tool"
+msgstr "Стартовый инструмент"
+
+msgid "Theme"
+msgstr "Тема"
+
+msgid "Font"
+msgstr "Шрифт"
+
+msgid "Sets the application font"
+msgstr "Задает шрифт приложения"
+
+msgid "Font size"
+msgstr "Размер шрифта"
+
+msgid "Default PDF version"
+msgstr "Версия PDF по умолчанию"
+
+msgid "Manually select the output destination directory"
+msgstr "Вручную выбрать выходной каталог назначения"
+
+msgid "Default prefix"
+msgstr "Префикс по умолчанию"
+
+msgid "Default prefix for output file names"
+msgstr "Префикс по умолчанию для имен выходных файлов"
+
+msgid "Right click to add special prefix keywords"
+msgstr "Правый клик для добавления специальных префиксных ключевых слов"
+
+msgid "Default"
+msgstr "По умолчанию"
+
+msgid "Properties table"
+msgstr "Таблица свойств"
+
+msgid "Properties"
+msgstr "Свойства"
+
+msgid "Empty"
+msgstr "Пусто"
+
+msgid "Notification"
+msgstr "Уведомление"
+
+msgid "Close notification"
+msgstr "Закрыть уведомление"
+
+msgid "Light"
+msgstr "Светлый"
+
+msgid "Dark"
+msgstr "Темный"
+
+#, java-format
+msgid "Open the url {0}"
+msgstr "Открыть URL {0}"
+
+#~ msgid "PDF document selection toolbar"
+#~ msgstr ""
+
+msgid "Clear the selected PDF document"
+msgstr "Очистить выбранный PDF-документ"
+
+msgid "PDF encryption status"
+msgstr "Статус шифрования PDF"
+
+msgid "PDF document password"
+msgstr "Пароль PDF-документа"
+
+msgid "Drag and drop PDF files here or use the Add button above"
+msgstr "Перетащите PDF-файлы сюда или используйте кнопку «Добавить» выше"
+
+msgid "PDF documents selection table"
+msgstr "Таблица выбора PDF-документов"
+
+msgid "PDF selection table"
+msgstr "Таблица выбора PDF"
+
+#, java-format
+msgid "PDF documents selection table, {0} documents"
+msgstr "Таблица выбора PDF-документов, {0} документов"
+
+msgid "Set as pace for all"
+msgstr "Установить как темп для всех"
+
+msgid "Unlock selected"
+msgstr "Разблокировать выделенное"
+
+#, java-format
+msgid "{0} selected pages"
+msgstr "{0} выбранных страниц"
+
+#, java-format
+msgid "Size: {0}"
+msgstr "Размер: {0}"
+
+#, java-format
+msgid "Modified: {0}"
+msgstr "Изменено: {0}"
+
+msgid "Number of total pages"
+msgstr "Общее количество страниц"
+
+#, java-format
+msgid "File name: {0}"
+msgstr "Имя файла: {0}"
+
+#, java-format
+msgid "Row {0}"
+msgstr "Строка {0}"
+
+#~ msgid "Document selection toolbar"
+#~ msgstr ""
+
+#, java-format
+msgid "{0} pages"
+msgstr "{0} страниц"
+
+msgid "Set selected pages (ex: 2 or 5-23 or 2,5-7,12-)"
+msgstr "Задать выбранные страницы (например: 2 или 5-23 или 2,5-7,12-)"
+
+msgid "Select a PDF destination file"
+msgstr "Выберите файл назначения PDF"
+
+msgid "Browse for destination PDF file"
+msgstr "Выбрать PDF-файл назначения"
+
+#, java-format
+msgid "Browse for {0}"
+msgstr "Обзор для {0}"
+
+msgid "Compress the output PDF file"
+msgstr "Сжать выходной PDF-файл"
+
+msgid "Select a PDF file"
+msgstr "Выберите PDF-файл"
+
+msgid "Browse for source PDF file"
+msgstr "Обзор исходного PDF-файла"
+
+msgid "Output PDF version"
+msgstr "Версия выходного PDF"
+
+msgid "Output PDF version selector"
+msgstr "Селектор выходной версии PDF"
+
+msgid "Output directory"
+msgstr "Выходная директория"
+
+msgid "Browse for output directory"
+msgstr "Обзор папки вывода"
+
+msgid "Browse for directory"
+msgstr "Обзор папок"
+
+#, java-format
+msgid "Invalid value: {0}"
+msgstr "Недопустимое значение: {0}"
+
+#, java-format
+msgid "When selected, requires PDF version {0} or higher for the output file"
+msgstr "При выборе, требуется версия PDF {0} или выше для выходного файла"
+
+msgid "Right click to add special prefix keywords like timestamp or filename"
+msgstr ""
+"Правый клик для добавления специальных ключевых слов-префиксов, таких как "
+"метка времени или имя файла"
+
+msgid "Open the task output file"
+msgstr "Открыть файл вывода задачи"
+
+msgid "Open the task output directory"
+msgstr "Открыть папку вывода задачи"
+
+msgid "Task footer"
+msgstr "Подвал задачи"
+
+msgid "Task progress"
+msgstr "Ход задачи"
+
+#, java-format
+msgid "Task progress: {0}"
+msgstr ""
+
+#, java-format
+msgid "Task status: {0}"
+msgstr ""
+
+#, java-format
+msgid "Task status: {0}%"
+msgstr ""

@@ -2,20 +2,21 @@
 # Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
 # This file is distributed under the same license as the pdfsam package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: pdfsam\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2024-10-23 17:08+0200\n"
-"PO-Revision-Date: 2025-12-01 12:48+0000\n"
+"PO-Revision-Date: 2026-02-24 16:37+0100\n"
 "Last-Translator: Juanjo <Unknown>\n"
 "Language-Team: Catalan <ca@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2026-01-26 07:52+0000\n"
-"X-Generator: Launchpad (build 9fcfff1971229ac997140f06b41a902ac8ec69f4)\n"
+"X-Generator: Autopo v1.0.9-SNAPSHOT\n"
+"Language: ca\n"
 
 msgid "No PDF document has been selected"
 msgstr "No heu seleccionat cap document PDF"
@@ -116,8 +117,7 @@ msgstr "Pàgines senars"
 msgid "Split the document after the given page numbers"
 msgstr "Separar el document després dels números de pàgina indicats"
 
-msgid ""
-"Splits the PDF every \"n\" pages creating documents of \"n\" pages each"
+msgid "Splits the PDF every \"n\" pages creating documents of \"n\" pages each"
 msgstr "Separar el PDF cada \"n\" pàgines creant documents de \"n\" pàgines"
 
 msgid "Split after the following page numbers"
@@ -166,8 +166,8 @@ msgstr "Indicar la mida per separar"
 msgid "Size must be a number"
 msgstr "La mida ha de se un número"
 
-msgid "Split at this size:"
-msgstr "Separar a aquesta mida:"
+#~ msgid "Split at this size:"
+#~ msgstr "Separar a aquesta mida:"
 
 msgid "Invalid split size"
 msgstr "Mida de divisió incorrecta"
@@ -185,8 +185,7 @@ msgstr ""
 "Combinar dos o més documents PDFs agafant pàgines alternativament en ordre "
 "natural o invers."
 
-msgid ""
-"Double click to set pages you want to mix (ex: 2 or 5-23 or 2,5-7,12-)"
+msgid "Double click to set pages you want to mix (ex: 2 or 5-23 or 2,5-7,12-)"
 msgstr ""
 "Feu un doble clic per indicar les pàgines que voleu ajuntar (ex: 2 o 5-23 o "
 "2,5-7, 12-)"
@@ -206,8 +205,8 @@ msgstr "180 graus en setit horari"
 msgid "90 degrees counterclockwise"
 msgstr "90 graus en setit antihorari"
 
-msgid "Rotate "
-msgstr "Gir "
+#~ msgid "Rotate "
+#~ msgstr "Gir "
 
 msgid "Rotate settings"
 msgstr "Configuració de girs"
@@ -218,11 +217,11 @@ msgstr "Gira"
 msgid "Rotate the pages of multiple PDF documents."
 msgstr "Girar les pàgines de diferents documents PDF"
 
-msgid ""
-"Double click to set pages you want to rotate (ex: 2 or 5-23 or 2,5-7,12-)"
-msgstr ""
-"Feu doble clic per indicar les pàgines que voleu rotar (ex: 2 o 5-23 o 2,5-"
-"7, 12-)"
+#~ msgid ""
+#~ "Double click to set pages you want to rotate (ex: 2 or 5-23 or 2,5-7,12-)"
+#~ msgstr ""
+#~ "Feu doble clic per indicar les pàgines que voleu rotar (ex: 2 o 5-23 o 2,5-"
+#~ "7, 12-)"
 
 msgid "Merge settings"
 msgstr "Opcions de fusió"
@@ -260,8 +259,8 @@ msgid "Same width as first page (based on page orientation)"
 msgstr ""
 "La mateixa amplada que la primera pàgina (segons l'orientació de la pàgina)"
 
-msgid "Pages normalization:"
-msgstr "Normalització de pàgines:"
+#~ msgid "Pages normalization:"
+#~ msgstr "Normalització de pàgines:"
 
 msgid ""
 "Set whether pages should be resized to all have the same width as the first "
@@ -282,8 +281,8 @@ msgstr "Aplana"
 msgid "Discard forms"
 msgstr "Descarta els formularis"
 
-msgid "Interactive forms (AcroForms):"
-msgstr "Formularis interactius (AcroForms):"
+#~ msgid "Interactive forms (AcroForms):"
+#~ msgstr "Formularis interactius (AcroForms):"
 
 msgid "What to do in case one or more input documents contain Acro Forms"
 msgstr "Què cal fer en cas que un o més documents tinguin formularis Acro"
@@ -300,8 +299,8 @@ msgstr "Crea una entrada per cada document fusionat"
 msgid "Retain bookmarks as one entry for each merged document"
 msgstr "Conserveu les marques com una entrada per a cada document combinat"
 
-msgid "Bookmarks handling:"
-msgstr "Gestió de preferits:"
+#~ msgid "Bookmarks handling:"
+#~ msgstr "Gestió de preferits:"
 
 msgid "What to do in case one or more input documents contain bookmarks"
 msgstr "Què cal fer en cas que un o més documents continguin marques"
@@ -315,8 +314,8 @@ msgstr "Genera a partir del nom dels fitxers"
 msgid "Generate from documents titles"
 msgstr "Genera a partir del títol dels documents"
 
-msgid "Table of contents:"
-msgstr "Taula de continguts:"
+#~ msgid "Table of contents:"
+#~ msgstr "Taula de continguts:"
 
 msgid ""
 "Set if a table of contents should be added to the generated PDF document"
@@ -368,7 +367,8 @@ msgstr "El número de pàgines ha de ser positiu"
 
 msgid "Select or drag and drop the PDF you want to insert pages to"
 msgstr ""
-"Seleccioneu o arrossegueu i deixeu el PDF que voleu insertar-hi les pàgines a"
+"Seleccioneu o arrossegueu i deixeu el PDF que voleu insertar-hi les pàgines "
+"a"
 
 msgid "A .pdf destination file extension is required"
 msgstr "Cal un fitxer de destí amb extensió .pdf."
@@ -609,8 +609,8 @@ msgstr "Feu una donació"
 msgid "Social"
 msgstr "Social"
 
-msgid "Follow us on Twitter"
-msgstr "Seguiu-nos a Twitter"
+#~ msgid "Follow us on Twitter"
+#~ msgstr "Seguiu-nos a Twitter"
 
 msgid "Like us on Facebook"
 msgstr "Feu un m'agrada al Facebook"
@@ -624,33 +624,33 @@ msgstr "Inici"
 msgid "Premium features"
 msgstr "Característiques Premium"
 
-msgid "Log register rows:"
-msgstr "Files de registre:"
+#~ msgid "Log register rows:"
+#~ msgstr "Files de registre:"
 
 msgid "Maximum number of rows displayed by the Log register"
 msgstr "Nombre màxim de files que mostra el registre"
 
-msgid "Language:"
-msgstr "Idioma:"
+#~ msgid "Language:"
+#~ msgstr "Idioma:"
 
 msgid "Set your preferred language (restart needed)"
 msgstr "Definiu el vostre llenguatge preferit (cal reiniciar)"
 
-msgid "Startup tool:"
-msgstr "Eina d'inici:"
+#~ msgid "Startup tool:"
+#~ msgstr "Eina d'inici:"
 
 msgid "Set the tool to open at application startup (restart needed)"
 msgstr ""
 "Configureu l'eina perquè s'obri a l'inici de l'aplicació (cal reiniciar-la)"
 
-msgid "Theme:"
-msgstr "Tema:"
+#~ msgid "Theme:"
+#~ msgstr "Tema:"
 
 msgid "Set the application theme"
 msgstr "Trieu el tema de l'aplicació"
 
-msgid "Font size:"
-msgstr "Mida de la lletra:"
+#~ msgid "Font size:"
+#~ msgstr "Mida de la lletra:"
 
 msgid "Set the application font size"
 msgstr "Estableix el tipus de lletra de l'aplicació"
@@ -702,8 +702,7 @@ msgstr "Sortida"
 msgid "Check for updates now"
 msgstr "Comprova si hi ha actualitzacions"
 
-msgid ""
-"Select a directory where documents will be saved and loaded by default"
+msgid "Select a directory where documents will be saved and loaded by default"
 msgstr ""
 "Seleccioneu un directori on es desin i carreguin els documents de manera "
 "predeterminada"
@@ -765,8 +764,7 @@ msgstr ""
 msgid "Overwrite files"
 msgstr "Sobrescriu els fitxers"
 
-msgid ""
-"Set whether \"Overwrite if already exists\" should be enabled by default"
+msgid "Set whether \"Overwrite if already exists\" should be enabled by default"
 msgstr ""
 "Definiu si \"Sobreescriure si ja existeix\" s'ha d'habilitar de manera "
 "predeterminada"
@@ -778,8 +776,7 @@ msgid "Turn on or off alert sounds"
 msgstr "Activa o desactiva els sons d'alerta"
 
 msgid "Store passwords when saving a workspace file"
-msgstr ""
-"Emmagatzemeu les contrasenyes quan deseu un fitxer d'espai de treball"
+msgstr "Emmagatzemeu les contrasenyes quan deseu un fitxer d'espai de treball"
 
 msgid ""
 "If an encrypted PDF document has been opened with a password, save the "
@@ -1048,8 +1045,8 @@ msgstr "Introduïu la contrasenya de l’usuari"
 msgid "Unlock"
 msgstr "Desbloca"
 
-msgid "Drag and drop PDF files here"
-msgstr "Arrossegueu i deixeu anar els fitxers PDF aquí"
+#~ msgid "Drag and drop PDF files here"
+#~ msgstr "Arrossegueu i deixeu anar els fitxers PDF aquí"
 
 msgid "Set as range for all"
 msgstr "Estableix com a rang per a tots"
@@ -1142,8 +1139,7 @@ msgstr "Ritme"
 msgid ""
 "Double click to set the number of pages after which the task will switch to "
 "the next file"
-msgstr ""
-"Feu doble clic per definir el nombre de pàgines per canviar de fitxer"
+msgstr "Feu doble clic per definir el nombre de pàgines per canviar de fitxer"
 
 msgid "Reverse"
 msgstr "Invers"
@@ -1154,9 +1150,9 @@ msgstr "Pàgines"
 msgid "Number of total pages of the document"
 msgstr "Nombre total de pàgines del document"
 
-msgid "Double click to set selected pages (ex: 2 or 5-23 or 2,5-7,12-)"
-msgstr ""
-"Feu doble clic per seleccionar les pàgines (ex: 2 o 5-23 o 2, 5-7, 12-)"
+#~ msgid "Double click to set selected pages (ex: 2 or 5-23 or 2,5-7,12-)"
+#~ msgstr ""
+#~ "Feu doble clic per seleccionar les pàgines (ex: 2 o 5-23 o 2, 5-7, 12-)"
 
 msgid "Page ranges"
 msgstr "Intervals de pàgines"
@@ -1195,6 +1191,7 @@ msgstr "Sobreescriu si ja existeix"
 
 msgid ""
 "Tick the box if you want to overwrite the output files if they already exist."
+""
 msgstr ""
 "Marqueu la casella si voleu sobreescriure els fitxers de sortida si ja "
 "existeixen."
@@ -1317,5 +1314,352 @@ msgstr "Número invàlid: {0}"
 #~ msgid ""
 #~ "Show a dialog box asking the user for confirmation when the \"overwrite\" is "
 #~ "selected"
+#~ msgstr "Mostra un diàleg de confirmació quan s’ha seleccionat «sobreescriure»"
+
+msgid "Split at this bookmark level"
+msgstr "Dividir a aquest nivell de marcador"
+
+msgid "Select the bookmark depth level at which to split the document"
+msgstr ""
+"Seleccioneu el nivell de profunditat del marcador en què dividir el document"
+
+msgid "Bookmark level"
+msgstr "Nivell de marcador"
+
+msgid "Bookmark level selector"
+msgstr "Selector de Nivell de Punt de Llibre"
+
+msgid "Select a bookmark level"
+msgstr "Seleccionar un nivell d'adreça d'interès"
+
+msgid "Select to split the PDF after a predefined set of pages"
+msgstr ""
+"Seleccioneu per dividir el PDF després d'un conjunt de pàgines predefinit"
+
+msgid "Predefined set of pages to split after"
+msgstr "Conjunt predefinit de pàgines de separació"
+
+msgid ""
+"Choose which predefined set of pages to split after (odd pages, even pages "
+"or every page)"
+msgstr ""
+"Tria quin conjunt predefinit de pàgines per dividir després de (pàgines "
+"senars, pàgines parells o cada pàgina)"
+
+msgid "Select to split the document after specific page numbers"
+msgstr ""
+"Seleccioneu per dividir el document després de números de pàgina específics"
+
+msgid "Page numbers to split at"
+msgstr "Números de pàgina on dividir"
+
+msgid "Enter comma separated positive page numbers (Ex. 1,5,12...)"
+msgstr ""
+"Introduïu números de pàgina positius separats per comes (Ex. 1,5,12...)"
+
+msgid "Select to split the document every 'n' pages"
+msgstr "Seleccioneu per dividir el document cada 'n' pàgines"
+
+msgid "Number of pages for split"
+msgstr "Número de pàgines per dividir"
+
+msgid "Enter a positive number of pages"
+msgstr "Introduïu un nombre positiu de pàgines"
+
+msgid "Split at this size"
+msgstr "Dividir a aquesta mida"
+
+msgid "Enter a positive integer for the maximum file size"
+msgstr "Introduïu un nombre enter positiu per a la mida màxima del fitxer"
+
+msgid "Size unit for the split file size"
+msgstr "Unitat de mida del fitxer dividit"
+
+msgid "Page selection for rotation"
+msgstr "Selecció de pàgines per girar"
+
+msgid "Choose which pages to rotate: all, even, or odd"
+msgstr "Triar quines pàgines girar: totes, parelles o senars"
+
+msgid "Rotation angle"
+msgstr "Angle de rotació"
+
+msgid "Choose the rotation angle to apply"
+msgstr "Trieu l'angle de rotació a aplicar"
+
+msgid "Set pages you want to rotate (ex: 2 or 5-23 or 2,5-7,12-)"
+msgstr "Defineix les pàgines que vols girar (ex: 2 o 5-23 o 2,5-7,12-)"
+
+msgid "Pages normalization"
+msgstr "Normalització de pàgines"
+
+msgid "Interactive forms (AcroForms)"
+msgstr "Formularis interactius (AcroForms)"
+
+msgid "Bookmarks handling"
+msgstr "Gestió de marcadors"
+
+msgid "Table of contents"
+msgstr "Taula de continguts"
+
+msgid "Repeating PDF file"
+msgstr "Fitxer PDF repetit"
+
+msgid "There are news available"
+msgstr "Hi ha novetats disponibles"
+
+msgid "selected"
+msgstr "seleccionat"
+
+#, java-format
+msgid "{0} (with notification)"
+msgstr "{0} (amb notificació)"
+
+msgid "Collapse the sidebar"
+msgstr "Plegar la barra lateral"
+
+msgid "Expand the sidebar"
+msgstr "Expandir la barra lateral"
+
+msgid "Workspace has changed"
+msgstr "Espai de treball ha canviat"
+
+msgid "Do you want to save it?"
+msgstr "Vols desar-ho?"
+
+msgid "PDF files to open"
+msgstr "Fitxers PDF per obrir"
+
+msgid "file list"
+msgstr "llista de fitxers"
+
+msgid "Available tasks"
+msgstr "Tasques disponibles"
+
+msgid "Log messages"
+msgstr "Missatges de registre"
+
+msgid "Save the log messages to a text file"
+msgstr "Desa els missatges de registre a un fitxer de text"
+
+msgid "Close the log panel"
+msgstr "Tanca el panell de registre"
+
+msgid "News items"
+msgstr "Notícies"
+
+msgid "Close news panel"
+msgstr "Tanca panell de notícies"
+
+#~ msgid "About panel"
 #~ msgstr ""
-#~ "Mostra un diàleg de confirmació quan s’ha seleccionat «sobreescriure»"
+
+msgid "Follow us on Bluesky"
+msgstr "Segueix-nos a Bluesky"
+
+#, java-format
+msgid "Help for {0}"
+msgstr "Ajuda per a {0}"
+
+msgid "Log register rows"
+msgstr "Files del registre"
+
+msgid "Language"
+msgstr "Idioma"
+
+msgid "Startup tool"
+msgstr "Eina d'inici"
+
+msgid "Theme"
+msgstr "Tema"
+
+msgid "Font"
+msgstr "Font"
+
+msgid "Sets the application font"
+msgstr "Estableix la font de l'aplicació"
+
+msgid "Font size"
+msgstr "Mida de la font"
+
+msgid "Default PDF version"
+msgstr "Versió de PDF per defecte"
+
+msgid "Manually select the output destination directory"
+msgstr "Seleccionar manualment la carpeta de destinació de sortida"
+
+msgid "Default prefix"
+msgstr "Prefix predeterminat"
+
+msgid "Default prefix for output file names"
+msgstr "Prefix per defecte per a noms de fitxer de sortida"
+
+msgid "Right click to add special prefix keywords"
+msgstr "Clic dret per afegir paraules clau de prefix especials"
+
+msgid "Default"
+msgstr "Predeterminat"
+
+msgid "Properties table"
+msgstr "Taula de propietats"
+
+msgid "Properties"
+msgstr "Propietats"
+
+msgid "Empty"
+msgstr "Buit"
+
+msgid "Notification"
+msgstr "Notificació"
+
+msgid "Close notification"
+msgstr "Tancar notificació"
+
+msgid "Light"
+msgstr "Clar"
+
+msgid "Dark"
+msgstr "Fosc"
+
+#, java-format
+msgid "Open the url {0}"
+msgstr "Obrir la URL {0}"
+
+#~ msgid "PDF document selection toolbar"
+#~ msgstr "Barra d'eines de selecció de document PDF"
+
+msgid "Clear the selected PDF document"
+msgstr "Tancar el document PDF seleccionat"
+
+msgid "PDF encryption status"
+msgstr "Estat del xifratge de PDF"
+
+msgid "PDF document password"
+msgstr "Contrasenya del document PDF"
+
+msgid "Drag and drop PDF files here or use the Add button above"
+msgstr ""
+"Arrossegueu i deixeu anar fitxers PDF aquí o utilitzeu el botó Afegeix de "
+"dalt"
+
+msgid "PDF documents selection table"
+msgstr "Taula de selecció de documents PDF"
+
+msgid "PDF selection table"
+msgstr "Taula de selecció de PDF"
+
+#, java-format
+msgid "PDF documents selection table, {0} documents"
+msgstr "Taula de selecció de documents PDF, {0} documents"
+
+msgid "Set as pace for all"
+msgstr "Establir com a pauta per a tots"
+
+msgid "Unlock selected"
+msgstr "Desbloquejar seleccionats"
+
+#, java-format
+msgid "{0} selected pages"
+msgstr "{0} pàgines seleccionades"
+
+#, java-format
+msgid "Size: {0}"
+msgstr "Mida: {0}"
+
+#, java-format
+msgid "Modified: {0}"
+msgstr "Modificat: {0}"
+
+msgid "Number of total pages"
+msgstr "Nombre total de pàgines"
+
+#, java-format
+msgid "File name: {0}"
+msgstr "Nom de fitxer: {0}"
+
+#, java-format
+msgid "Row {0}"
+msgstr "Fila {0}"
+
+#~ msgid "Document selection toolbar"
+#~ msgstr "Barra d'eines de selecció de documents"
+
+#, java-format
+msgid "{0} pages"
+msgstr "{0} pàgines"
+
+msgid "Set selected pages (ex: 2 or 5-23 or 2,5-7,12-)"
+msgstr "Estableix les pàgines seleccionades (ex: 2 o 5-23 o 2,5-7,12-)"
+
+msgid "Select a PDF destination file"
+msgstr "Selecciona un fitxer PDF de destinació"
+
+msgid "Browse for destination PDF file"
+msgstr "Explorar fitxer PDF de destinació"
+
+#, java-format
+msgid "Browse for {0}"
+msgstr "Explorar per a {0}"
+
+msgid "Compress the output PDF file"
+msgstr "Comprimir el fitxer PDF de sortida"
+
+msgid "Select a PDF file"
+msgstr "Selecciona un fitxer PDF"
+
+msgid "Browse for source PDF file"
+msgstr "Cerca el fitxer PDF d'origen"
+
+msgid "Output PDF version"
+msgstr "Versió de PDF de sortida"
+
+msgid "Output PDF version selector"
+msgstr "Selector de versió de PDF de sortida"
+
+msgid "Output directory"
+msgstr "Carpeta de sortida"
+
+msgid "Browse for output directory"
+msgstr "Seleccionar directori de sortida"
+
+msgid "Browse for directory"
+msgstr "Explorar carpeta"
+
+#, java-format
+msgid "Invalid value: {0}"
+msgstr "Valor no vàlid: {0}"
+
+#, java-format
+msgid "When selected, requires PDF version {0} or higher for the output file"
+msgstr ""
+"En seleccionar-ho, requereix la versió {0} de PDF o superior per al fitxer "
+"de sortida"
+
+msgid "Right click to add special prefix keywords like timestamp or filename"
+msgstr ""
+"Fes clic dret per afegir paraules clau de prefix especials com ara marca de "
+"temps o nom de fitxer"
+
+msgid "Open the task output file"
+msgstr "Obrir el fitxer de sortida de la tasca"
+
+msgid "Open the task output directory"
+msgstr "Obrir el directori de sortida de la tasca"
+
+msgid "Task footer"
+msgstr "Peu de tasca"
+
+msgid "Task progress"
+msgstr "Progrés de la tasca"
+
+#, java-format
+msgid "Task progress: {0}"
+msgstr "Progrés de la tasca: {0}"
+
+#, java-format
+msgid "Task status: {0}"
+msgstr "Estat de la tasca: {0}"
+
+#, java-format
+msgid "Task status: {0}%"
+msgstr "Estat de la tasca: {0}%"

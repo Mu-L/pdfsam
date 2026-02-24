@@ -49,7 +49,6 @@ class SingleSelectionPaneToolbar extends ToolBar implements ToolBound {
         this.toolBinding = defaultString(toolBinding);
         getItems().addAll(selectButton, new ClearButton(toolBinding));
         getStyleClass().add("selection-tool-bar");
-        setAccessibleText(i18n().tr("PDF document selection toolbar"));
     }
 
     /**

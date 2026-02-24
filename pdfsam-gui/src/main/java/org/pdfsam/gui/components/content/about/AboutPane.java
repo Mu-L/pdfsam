@@ -69,7 +69,6 @@ public class AboutPane extends HBox {
     public AboutPane(AppBrand appBrand) {
         getStyleClass().add("spaced-container");
         getStyleClass().add("about-panel");
-        setAccessibleText(i18n().tr("About panel"));
         var left = new VBox(6);
         addSectionTitle(appBrand.property(BrandableProperty.NAME, "PDFsam Basic"), left);
         left.getChildren().addAll(new Label(String.format("ver. %s", appBrand.property(VERSION))));
