@@ -24,9 +24,9 @@ import javafx.scene.control.TableColumn;
 import javafx.util.Callback;
 
 import java.util.Comparator;
+import java.util.Objects;
 
 import static org.apache.commons.lang3.StringUtils.EMPTY;
-import static org.apache.commons.lang3.StringUtils.defaultString;
 import static org.apache.commons.lang3.StringUtils.isNoneBlank;
 import static org.pdfsam.i18n.I18nContext.i18n;
 
@@ -60,7 +60,7 @@ public class PageRangesColumn implements SelectionTableColumn<String> {
 
     @Override
     public String getTextValue(String item) {
-        return defaultString(item, EMPTY);
+        return Objects.toString(item, EMPTY);
     }
 
     @Override
