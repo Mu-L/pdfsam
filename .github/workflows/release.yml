@@ -34,7 +34,7 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v5
         with:
-          java-version: 21
+          java-version: 25
           distribution: 'liberica'
       - name: Install gettext on Ubuntu
         if: matrix.os == 'ubuntu-latest'
