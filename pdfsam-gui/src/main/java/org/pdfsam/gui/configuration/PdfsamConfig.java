@@ -28,6 +28,7 @@ import org.pdfsam.gui.WindowStatusController;
 import org.pdfsam.gui.components.content.about.AboutContentItem;
 import org.pdfsam.gui.components.content.home.HomeContentItem;
 import org.pdfsam.gui.components.content.log.LogContentItem;
+import org.pdfsam.gui.components.content.log.LogMessagesController;
 import org.pdfsam.gui.components.content.preference.PreferenceContentItem;
 import org.pdfsam.gui.components.dialog.ClearToolConfirmationDialogController;
 import org.pdfsam.gui.components.dialog.CreateOutputDirectoryDialogController;
@@ -54,7 +55,7 @@ import org.pdfsam.injector.Provides;
         ClearToolConfirmationDialogController.class, SaveWorkspaceConfirmationDialogController.class,
         LenientTaskExecutionDialogController.class, FilesDropController.class, AppContentController.class,
         RunAcceleratorController.class, AboutContentItem.class, PreferenceContentItem.class, HomeContentItem.class,
-        LogContentItem.class })
+        LogContentItem.class, LogMessagesController.class })
 public class PdfsamConfig {
 
     private final HostServices services;

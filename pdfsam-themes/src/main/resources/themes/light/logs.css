@@ -12,7 +12,7 @@
     -fx-padding: 0.083333em;
 }
 
-.info-log {
+.info-log, .debug-log, .trace-log {
     -fx-text-fill: -default-font-color;
 }
 

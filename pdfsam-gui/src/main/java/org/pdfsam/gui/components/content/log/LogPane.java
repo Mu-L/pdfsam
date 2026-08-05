@@ -92,9 +92,6 @@ public class LogPane extends BorderPane {
         fileChooser.setInitialFileName("PDFsam.log");
         var saveTo = fileChooser.showSaveDialog(this.getScene().getWindow());
         if (Objects.nonNull(saveTo)) {
-            //            if (chosenFile.exists()) {
-            //                 TODO show dialog? investigate. On Ubuntu it already asks confirmation.
-            //            }
             writeContent(logView.getItems()).to(saveTo);
         }
     }

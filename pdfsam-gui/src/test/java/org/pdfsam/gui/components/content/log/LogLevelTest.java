@@ -34,7 +34,7 @@ public class LogLevelTest {
         assertEquals(LogLevel.ERROR, LogLevel.toLogLevel(Level.ERROR));
         assertEquals(LogLevel.WARN, LogLevel.toLogLevel(Level.WARN));
         assertEquals(LogLevel.INFO, LogLevel.toLogLevel(Level.INFO));
-        assertEquals(LogLevel.INFO, LogLevel.toLogLevel(Level.DEBUG));
-        assertEquals(LogLevel.INFO, LogLevel.toLogLevel(Level.TRACE));
+        assertEquals(LogLevel.DEBUG, LogLevel.toLogLevel(Level.DEBUG));
+        assertEquals(LogLevel.TRACE, LogLevel.toLogLevel(Level.TRACE));
     }
 }

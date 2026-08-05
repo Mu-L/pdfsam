@@ -32,6 +32,8 @@ import org.testfx.framework.junit5.ApplicationExtension;
 import org.testfx.framework.junit5.Start;
 import org.testfx.util.WaitForAsyncUtils;
 
+import java.util.List;
+
 import static org.apache.commons.lang3.StringUtils.isBlank;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -56,8 +58,8 @@ public class LogPaneTest {
         @Provides
         public LogListView view() {
             LogListView view = new LogListView();
-            view.onEvent(new LogMessage("A message", LogLevel.INFO));
-            view.onEvent(new LogMessage("An Error message", LogLevel.ERROR));
+            view.addAll(List.of(new LogMessage("A message", LogLevel.INFO),
+                    new LogMessage("An Error message", LogLevel.ERROR)));
             return view;
         }
     }

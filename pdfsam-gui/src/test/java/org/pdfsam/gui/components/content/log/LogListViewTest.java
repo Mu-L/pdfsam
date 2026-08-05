@@ -18,11 +18,14 @@
  */
 package org.pdfsam.gui.components.content.log;
 
+import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.pdfsam.core.context.IntegerPersistentProperty;
 import org.pdfsam.test.ClearEventStudioExtension;
 import org.pdfsam.test.JavaFxThreadInitializeExtension;
+
+import java.util.List;
 
 import static java.time.Duration.ofSeconds;
 import static org.awaitility.Awaitility.await;
@@ -33,16 +36,20 @@ import static org.pdfsam.eventstudio.StaticStudio.eventStudio;
  * @author Andrea Vacondio
  *
  */
-@ExtendWith({ ClearEventStudioExtension.class, JavaFxThreadInitializeExtension.class})
+@ExtendWith({ ClearEventStudioExtension.class, JavaFxThreadInitializeExtension.class })
 public class LogListViewTest {
 
+    @AfterAll
+    public static void tearDown() {
+        app().persistentSettings().delete(IntegerPersistentProperty.LOGVIEW_ROWS_NUMBER);
+    }
 
     @Test
-    public void append()   {
+    public void append() {
         app().persistentSettings().set(IntegerPersistentProperty.LOGVIEW_ROWS_NUMBER, 200);
-        LogListView victim = new LogListView();
-        victim.onEvent(new LogMessage("testMessage", LogLevel.WARN));
-        victim.onEvent(new LogMessage("anotherTestMessage", LogLevel.INFO));
+        var victim = new LogListView();
+        victim.addAll(List.of(new LogMessage("testMessage", LogLevel.WARN),
+                new LogMessage("anotherTestMessage", LogLevel.INFO)));
         await().atMost(ofSeconds(2)).until(() -> victim.getItems().size() == 2);
         await().atMost(ofSeconds(2)).until(() -> victim.getItems().get(0).message(), "testMessage"::equals);
         await().atMost(ofSeconds(2)).until(() -> victim.getItems().get(1).message(), "anotherTestMessage"::equals);
@@ -51,11 +58,11 @@ public class LogListViewTest {
     @Test
     public void appendSizeConstraint() {
         app().persistentSettings().set(IntegerPersistentProperty.LOGVIEW_ROWS_NUMBER, 2);
-        LogListView victim = new LogListView();
-        victim.onEvent(new LogMessage("testMessage", LogLevel.WARN));
-        victim.onEvent(new LogMessage("anotherTestMessage", LogLevel.INFO));
-        victim.onEvent(new LogMessage("anotherTestMessage2", LogLevel.INFO));
-        victim.onEvent(new LogMessage("anotherTestMessage3", LogLevel.INFO));
+        var victim = new LogListView();
+        victim.addAll(List.of(new LogMessage("testMessage", LogLevel.WARN),
+                new LogMessage("anotherTestMessage", LogLevel.INFO),
+                new LogMessage("anotherTestMessage2", LogLevel.INFO),
+                new LogMessage("anotherTestMessage3", LogLevel.INFO)));
         await().atMost(ofSeconds(2)).until(() -> victim.getItems().size() == 2);
         await().atMost(ofSeconds(2)).until(() -> victim.getItems().get(0).message(), "anotherTestMessage2"::equals);
         await().atMost(ofSeconds(2)).until(() -> victim.getItems().get(1).message(), "anotherTestMessage3"::equals);
@@ -64,12 +71,12 @@ public class LogListViewTest {
     @Test
     public void maxNumberOfLogRowsChanged() {
         app().persistentSettings().set(IntegerPersistentProperty.LOGVIEW_ROWS_NUMBER, 5);
-        LogListView victim = new LogListView();
-        victim.onEvent(new LogMessage("testMessage", LogLevel.WARN));
-        victim.onEvent(new LogMessage("anotherTestMessage", LogLevel.INFO));
-        victim.onEvent(new LogMessage("anotherTestMessage2", LogLevel.INFO));
-        victim.onEvent(new LogMessage("anotherTestMessage3", LogLevel.INFO));
-        victim.onEvent(new LogMessage("anotherTestMessage4", LogLevel.INFO));
+        var victim = new LogListView();
+        victim.addAll(List.of(new LogMessage("testMessage", LogLevel.WARN),
+                new LogMessage("anotherTestMessage", LogLevel.INFO),
+                new LogMessage("anotherTestMessage2", LogLevel.INFO),
+                new LogMessage("anotherTestMessage3", LogLevel.INFO),
+                new LogMessage("anotherTestMessage4", LogLevel.INFO)));
         await().atMost(ofSeconds(2)).until(() -> victim.getItems().size() == 5);
         app().persistentSettings().set(IntegerPersistentProperty.LOGVIEW_ROWS_NUMBER, 2);
         eventStudio().broadcast(new MaxLogRowsChangedEvent());

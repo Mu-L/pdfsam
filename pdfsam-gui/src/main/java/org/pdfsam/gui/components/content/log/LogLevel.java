@@ -26,32 +26,29 @@ import org.tinylog.Level;
  * @author Andrea Vacondio
  */
 enum LogLevel {
-    INFO {
-        @Override
-        public String style() {
-            return "info-log";
-        }
-    },
-    WARN {
-        @Override
-        public String style() {
-            return "warn-log";
-        }
-    },
-    ERROR {
-        @Override
-        public String style() {
-            return "error-log";
-        }
-    };
+    TRACE("trace-log"),
+    DEBUG("debug-log"),
+    INFO("info-log"),
+    WARN("warn-log"),
+    ERROR("error-log");
 
-    public abstract String style();
+    LogLevel(String style) {
+        this.style = style;
+    }
+
+    private String style;
+
+    public String style() {
+        return style;
+    }
 
     public static LogLevel toLogLevel(Level intLevel) {
         return switch (intLevel) {
             case ERROR -> ERROR;
             case WARN -> WARN;
-            default -> INFO;
+            case INFO -> INFO;
+            case DEBUG -> DEBUG;
+            default -> TRACE;
         };
     }
 

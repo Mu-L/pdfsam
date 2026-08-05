@@ -19,17 +19,14 @@
 package org.pdfsam.gui.components.content.log;
 
 import jakarta.inject.Inject;
-import javafx.application.Platform;
-import javafx.scene.Scene;
 import javafx.scene.control.ListCell;
 import javafx.scene.control.ListView;
 import javafx.scene.control.SelectionMode;
-import javafx.stage.Window;
-import org.pdfsam.eventstudio.annotation.EventListener;
 import org.pdfsam.ui.components.support.CircularObservableList;
 
+import java.util.List;
+
 import static java.util.Objects.nonNull;
-import static java.util.Optional.ofNullable;
 import static org.pdfsam.core.context.ApplicationContext.app;
 import static org.pdfsam.core.context.IntegerPersistentProperty.LOGVIEW_ROWS_NUMBER;
 import static org.pdfsam.eventstudio.StaticStudio.eventStudio;
@@ -44,8 +41,7 @@ class LogListView extends ListView<LogMessage> {
 
     @Inject
     public LogListView() {
-        CircularObservableList<LogMessage> items = new CircularObservableList<>(
-                app().persistentSettings().get(LOGVIEW_ROWS_NUMBER));
+        var items = new CircularObservableList<LogMessage>(app().persistentSettings().get(LOGVIEW_ROWS_NUMBER));
         eventStudio().add(MaxLogRowsChangedEvent.class,
                 e -> items.setMaxCapacity(app().persistentSettings().get(LOGVIEW_ROWS_NUMBER)));
         setId("log-view");
@@ -53,7 +49,6 @@ class LogListView extends ListView<LogMessage> {
         setItems(items);
         getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
         setCellFactory(list -> new TextCell());
-        eventStudio().addAnnotatedListeners(this);
     }
 
     static class TextCell extends ListCell<LogMessage> {
@@ -74,17 +69,9 @@ class LogListView extends ListView<LogMessage> {
         }
     }
 
-    @EventListener
-    public void onEvent(LogMessage event) {
-        Platform.runLater(() -> {
-            getItems().add(event);
-            scrollToBottomIfShowing();
-        });
-    }
-
-    public void scrollToBottomIfShowing() {
-        if (!getItems().isEmpty()
-                && ofNullable(this.getScene()).map(Scene::getWindow).map(Window::isShowing).orElse(Boolean.TRUE)) {
+    public void addAll(List<LogMessage> batch) {
+        if (nonNull(batch) && !batch.isEmpty()) {
+            getItems().addAll(batch);
             scrollTo(getItems().size() - 1);
         }
     }

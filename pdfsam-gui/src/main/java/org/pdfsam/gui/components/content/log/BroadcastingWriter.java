@@ -52,6 +52,7 @@ public class BroadcastingWriter extends AbstractFormatPatternWriter {
     public Collection<LogEntryValue> getRequiredLogEntryValues() {
         Collection<LogEntryValue> logEntryValues = super.getRequiredLogEntryValues();
         logEntryValues.add(LogEntryValue.LEVEL);
+        logEntryValues.add(LogEntryValue.THREAD);
         return logEntryValues;
     }
 

@@ -60,6 +60,11 @@ public class CircularObservableList<E> extends ModifiableObservableListBase<E> {
     }
 
     @Override
+    public boolean addAll(Collection<? extends E> c) {
+        return this.addAll(wrapped.size(), c);
+    }
+
+    @Override
     public boolean addAll(int index, Collection<? extends E> c) {
         boolean retVal;
         try {
