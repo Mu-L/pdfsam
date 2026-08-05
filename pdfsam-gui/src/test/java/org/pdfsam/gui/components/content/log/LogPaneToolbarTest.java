@@ -20,6 +20,7 @@ import org.testfx.framework.junit5.Start;
 import org.testfx.framework.junit5.Stop;
 import org.testfx.matcher.base.NodeMatchers;
 
+import java.util.List;
 import java.util.Locale;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
@@ -52,6 +53,7 @@ import static org.testfx.util.WaitForAsyncUtils.waitForFxEvents;
 class LogPaneToolbarTest {
 
     private LogPaneToolbar victim;
+    private LogListView view;
     private FxRobot robot;
 
     @BeforeAll
@@ -61,7 +63,8 @@ class LogPaneToolbarTest {
 
     @Start
     public void start(Stage stage) {
-        victim = new LogPaneToolbar(new LogListView());
+        view = new LogListView();
+        victim = new LogPaneToolbar(view);
         Scene scene = new Scene(victim);
         stage.setScene(scene);
         stage.show();
@@ -76,7 +79,7 @@ class LogPaneToolbarTest {
     public void onClickSave() {
         var button = robot.lookup(i18n().tr("_Save")).queryAs(LogPaneToolbar.SaveButton.class);
         assertTrue(button.isDisabled());
-        eventStudio().broadcast(new LogMessage("test", LogLevel.INFO));
+        view.addAll(List.of(new LogMessage("test", LogLevel.INFO)));
         waitForFxEvents();
         assertFalse(button.isDisabled());
         HitTestListener<SaveLogRequest> listener = new HitTestListener<>();
@@ -89,7 +92,7 @@ class LogPaneToolbarTest {
     public void onClickClear() {
         var button = robot.lookup(i18n().tr("_Clear")).queryAs(LogPaneToolbar.ClearButton.class);
         assertTrue(button.isDisabled());
-        eventStudio().broadcast(new LogMessage("test", LogLevel.INFO));
+        view.addAll(List.of(new LogMessage("test", LogLevel.INFO)));
         waitForFxEvents();
         assertFalse(button.isDisabled());
         HitTestListener<ClearLogRequest> listener = new HitTestListener<>();
