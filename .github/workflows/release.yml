@@ -17,7 +17,7 @@ jobs:
     name: build ${{ matrix.os }}
     steps:
       - name: Checkout repo
-        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
       - name: Import GPG key
@@ -34,7 +34,7 @@ jobs:
           p12-file-base64: ${{ secrets.APPLE_CERT_P12 }}
           p12-password: ${{ secrets.APPLE_CERT_P12_PWD }}
       - name: Set up JDK
-        uses: actions/setup-java@1bcf9fb12cf4aa7d266a90ae39939e61372fe520 # v5.4.0
+        uses: actions/setup-java@b6effb05e454b25005698d916606bdc6ffcbf961 # v5.7.0
         with:
           java-version: 25
           distribution: 'liberica'
@@ -46,7 +46,7 @@ jobs:
 
       - name: Install scoop on Windows
         if: matrix.os == 'windows-latest'
-        uses: MinoruSekine/setup-scoop@6435f41324fa55988d8ce5b06bae5cafc75fe045 # v4
+        uses: MinoruSekine/setup-scoop@371e1c778465fed5ee2101c415bead47553e1a07 # v5.0.0
 
       - name: Install gettext on Windows
         if: matrix.os == 'windows-latest'
@@ -90,7 +90,7 @@ jobs:
           AZURE_CLIENT_SECRET: ${{ secrets.AZURE_CLIENT_SECRET }}
         run: mvn clean install -DskipTests -Drelease --batch-mode
       - name: Release
-        uses: softprops/action-gh-release@718ea10b132b3b2eba29c1007bb80653f286566b # v3
+        uses: softprops/action-gh-release@3d0d9888cb7fd7b750713d6e236d1fcb99157228 # v3.0.2
         with:
           draft: true
           files: |
